@@ -11,4 +11,17 @@ package nominas;
  */
 public class Nominas {
     
+    public String cargo;
+    
+    public int sueldo,tiempoTrabajo;
+    
+    public Nominas(){
+        
+        cargo = "Empleado nuevo";
+        
+        sueldo = 6500;
+        
+        tiempoTrabajo = 48;
+    }
+    
 }
